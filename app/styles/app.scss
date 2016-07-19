@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+img{width: 100%;}
+.top-container{
+background: #e1f7fa;
+&__inner{
+  max-width: 60rem;
+  margin: auto;
+  padding: .1rem 1rem;
+}
+
+}
+
+.main-container{
+  background: black;
+  &__inner{
+    max-width: 60rem;
+    margin: auto;
+    padding: 0 1rem;
+  }
+}
+.brewery-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  &__item{
+    background: white;
+  }
+}
