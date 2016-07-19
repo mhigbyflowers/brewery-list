@@ -12,8 +12,9 @@
      {{#each model.data as | brewhouse |}}
   {{#if brewhouse.images}}
      <div class="brewery-list__item">
-
-       <img src="{{brewhouse.images.large}}" alt="" class="brewery-list__item-img">
+<div class="brewery-list__item-frame">
+       <img src="{{brewhouse.images.large}}" alt="" class="brewery-list__item-frame--img">
+</div>
        <div class="brewery-list__item-info">
          <h3 class="brewery-list__item-info--name">{{brewhouse.name}}</h3>
          <p class="brewery-list__item--date">EST {{brewhouse.established}}</p>
